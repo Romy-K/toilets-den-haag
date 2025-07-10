@@ -1,0 +1,49 @@
+Identifier;MeasureGroupId;Index;Title;Description;DataType;Unit;Decimals;PresentationType
+M000352;;2;Bevolking op 1 januari;"Bevolking 
+De bewoners van een bepaald gebied.
+In de CBS-bevolkingsaantallen zijn uitsluitend personen begrepen die zijn opgenomen in het bevolkingsregister van een Nederlandse gemeente. In principe wordt iedereen die voor onbepaalde tijd in Nederland woont, opgenomen in het bevolkingsregister van de woongemeente. Personen die tot de bevolking van Nederland behoren, maar voor wie geen vaste woonplaats valt aan te wijzen, zijn opgenomen in het bevolkingsregister van de gemeente 's-Gravenhage. In de bevolkingsregisters zijn niet opgenomen de in Nederland wonende personen waarvoor uitzonderingsregels gelden met betrekking tot opneming in de bevolkingsregisters (bijvoorbeeld diplomaten en NAVO militairen) en personen die niet legaal in Nederland verblijven.";Long;aantal;0;
+80000_1;10000_1;4;0 tot 20 jaar;;Long;aantal;0;
+80100_1;10000_1;5;20 tot 65 jaar;;Long;aantal;0;
+80200_1;10000_1;6;65 jaar en ouder;;Long;aantal;0;
+80000_2;10000_2;8;%   0 tot 20 jaar;;Float;%;1;
+80100_2;10000_2;9;% 20 tot 65 jaar;;Float;%;1;
+80200_2;10000_2;10;% 65 jaar en ouder;;Float;%;1;
+D000110_2;D000110_1;12;Totale druk;"Demografische druk
+De som van het aantal personen van 0 tot 20 jaar en 65 jaar of ouder in verhouding tot de personen van 20 tot 65 jaar.
+Dit cijfer geeft inzicht in de verhouding van het niet-werkende deel van de bevolking tot het werkende deel van de bevolking.";Double;%;1;
+D000117;D000110_1;13;Groene druk;"De verhouding tussen het aantal personen van 0 tot 20 jaar en het aantal personen van 20 tot 65 jaar.
+Dit cijfer geeft inzicht in de verhouding van de jeugd tot het werkende deel van de bevolking.";Double;%;1;
+D000116;D000110_1;14;Grijze druk;"De verhouding tussen het aantal personen van 65 jaar of ouder en het aantal personen van 20 tot 65 jaar.
+Dit cijfer geeft inzicht in de verhouding van de ouderen tot het werkende deel van de bevolking. 
+";Double;%;1;
+D000128;;15;Levend geboren kinderen;"Kind dat na geboorte enig teken van leven heeft vertoond, ongeacht de zwangerschapsduur.
+";Long;aantal;0;
+M005167;;16;Totaal vruchtbaarheidscijfer;"De som van de afzonderlijke leeftijdsspecifieke vruchtbaarheidscijfers.
+Dit cijfer kan worden opgevat als het gemiddelde aantal kinderen dat een vrouw krijgt indien de in een bepaald jaar waargenomen
+leeftijdsspecifieke vruchtbaarheidscijfers gedurende haar leven zouden gelden.";Float;aantal;2;
+M000134;;17;Overledenen;"Persoon die is overleden waarbij een bevoegde arts een overlijdensakte heeft ondertekend.
+In CBS-statistieken hebben overledenen betrekking op personen die bij overlijden in het bevolkingsregister van een Nederlandse gemeente zijn opgenomen, ongeacht het land waar het overlijden heeft plaatsgevonden. Personen die niet in Nederland wonen maar wel hier overlijden worden niet meegeteld.";Long;aantal;0;
+T001038_1;M000180;20;Totaal;;Double;jaar;2;
+3000_1;M000180;21;Mannen;;Double;jaar;2;
+4000_1;M000180;22;Vrouwen;;Double;jaar;2;
+T001038_2;16500;24;Totaal;;Double;jaar;2;
+3000_2;16500;25;Mannen;;Double;jaar;2;
+4000_2;16500;26;Vrouwen;;Double;jaar;2;
+M000167;M000183;28;Immigratie;"Vestiging van personen vanuit het buitenland in Nederland.
+
+Om als immigrant te kunnen worden geteld dienen deze personen ingeschreven te worden in de gemeentelijke bevolkingsregisters. Tot en met september 1994: een aantal speciale gevallen uitgezonderd, vond opneming voor een persoon met de Nederlandse nationaliteit plaats als deze zich voor langer dan 30 dagen dacht te vestigen en voor een persoon met een niet-Nederlandse nationaliteit als de verwachte vestigingsduur de 180 dagen overschreed. Vanaf oktober 1994: men wordt ingeschreven als men verwacht minimaal vier maanden in Nederland te blijven.
+";Long;aantal;0;
+M000168;M000183;29;Emigratie (inclusief correcties);"Vertrek van personen naar het buitenland.
+
+Tot en met september 1994 werd men uit het bevolkingsregister afgevoerd wanneer men Nederland voor langer dan 360 dagen dacht te verlaten. Met ingang van oktober 1994 geldt dat de verwachte verblijfsduur in het buitenland ten minste acht maanden bedraagt. Het gaat hier steeds om de aan de gemeente gemelde emigratie.
+
+Administratieve correctie
+Opneming van een persoon in het gemeentelijke bevolkingsregister of afvoering van een persoon uit het gemeentelijke bevolkingsregister die niet het gevolg is van geboorte, sterfte, vestiging, vertrek of gemeentegrenswijziging.
+Administratieve correcties zijn meestal het gevolg van niet aan de gemeente gemelde emigratie.
+";Long;aantal;0;
+M000244;M000183;30;Migratiesaldo (inclusief correcties);"Het aantal gevestigde personen uit het buitenland min het aantal vertrokken personen naar het buitenland, inclusief het saldo van de administratieve correcties.
+Aangezien het saldo administratieve correcties op nationaal niveau wordt gezien als niet gemelde emigratie, is het migratiesaldo inclusief het saldo administratieve correcties dus het saldo van de (gemelde én niet-gemelde) buitenlandse migratie.
+
+Administratieve correctie
+Opneming van een persoon in het gemeentelijke bevolkingsregister of afvoering van een persoon uit het gemeentelijke bevolkingsregister die niet het gevolg is van geboorte, sterfte, vestiging, vertrek of gemeentegrenswijziging.
+Administratieve correcties zijn meestal het gevolg van niet aan de gemeente gemelde emigratie.";Long;aantal;0;

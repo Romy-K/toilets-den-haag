@@ -1,0 +1,132 @@
+Identifier;Title;Description;Modified;ReleaseDate;ModificationDate;Language;TemporalCoverage;Authority;Catalog;Publisher;ContactPoint;Version;VersionNotes;VersionReason;Frequency;Status;ObservationCount;ObservationsModified;DatasetType;GraphTypes;License;Source;Summary;LongDescription
+86040NED;"Prognose bevolking; kerncijfers 2024-2070";"Deze tabel bevat prognoses van de bevolking van Nederland op 1 januari naar leeftijd (drie groepen) en de bevolkingsontwikkeling: het aantal levend geboren kinderen, het aantal overledenen en de buitenlandse migratie. Daarnaast bevat de tabel de demografische druk, het totaal vruchtbaarheidscijfer per vrouw en de periode-levensverwachting bij geboorte en op de 65ste verjaardag naar geslacht.
+
+De periode-levensverwachting, berekend uit een periode-overlevingstafel, is een samenvattende maat voor de sterftekansen in een kalenderjaar. Het geeft aan hoe oud mensen gemiddeld zouden worden indien de sterftekansen-per-leeftijd van dat jaar hun hele leven zouden gelden. Zie paragraaf 4 voor een uitleg over het verschil tussen de periode-overlevingstafel en een cohort-overlevingstafel.
+
+In de tabel zijn ook prognose-intervallen opgenomen.
+
+Gegevens beschikbaar van 2024 tot en met 2070.
+
+Status van de cijfers:
+De cijfers in deze tabel zijn berekende prognosecijfers.
+
+Wijzigingen per 17 december 2024:
+Geen, dit is een nieuwe tabel waarin de voorgaande prognose is bijgesteld op basis van de inmiddels beschikbaar gekomen waarnemingen. De prognoseperiode loopt nu van 2024 tot 2070.
+
+Wanneer komen er nieuwe cijfers?
+De verschijningsfrequentie van deze tabel is eenmalig. In december 2025 wordt een nieuwe tabel gepubliceerd met de prognose van de bevolking.
+
+
+";2024-12-17T06:30:00+01:00;2024-12-17T06:30:00+01:00;2024-12-17T06:30:00+01:00;nl;2024-2070;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;CBS;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;infoservice@cbs.nl;202412170630;;Nieuw;Eenmalig;Regulier;5170;2024-12-17T06:30:00+01:00;Numeric;Table,Bar,Line;https://creativecommons.org/licenses/by/4.0/;CBS.;"Kernprognose; bevolkingsomvang, demografische druk, geboorte,
+vruchtbaarheidscijfers, sterfte, levensverwachting en migratie";"INHOUDSOPGAVE
+
+1. Toelichting
+2. Definities en verklaring van symbolen
+3. Koppelingen naar relevante tabellen en artikelen
+4. Bronnen en methoden
+5. Meer informatie
+
+
+1. TOELICHTING
+
+Deze tabel bevat prognoses van de bevolking van Nederland op 1 januari naar leeftijd (drie groepen) en de bevolkingsontwikkeling: het aantal levend geboren kinderen, het aantal overledenen en de buitenlandse migratie. Daarnaast bevat de tabel de demografische druk, het totaal vruchtbaarheidscijfer per vrouw en de periode-levensverwachting bij geboorte en op de 65ste verjaardag naar geslacht.
+
+De periode-levensverwachting, berekend uit een periode-overlevingstafel, is een samenvattende maat voor de sterftekansen in een kalenderjaar. Het geeft aan hoe oud mensen gemiddeld zouden worden indien de sterftekansen-per-leeftijd van dat jaar hun hele leven zouden gelden. Zie paragraaf 4 voor een uitleg over het verschil tussen de periode-overlevingstafel en een cohort-overlevingstafel.
+
+In de tabel zijn ook prognose-intervallen opgenomen.
+
+Gegevens beschikbaar van 2024 tot en met 2070.
+
+Status van de cijfers:
+De cijfers in deze tabel zijn berekende prognosecijfers.
+
+Wijzigingen per 17 december 2024:
+Geen, dit is een nieuwe tabel waarin de voorgaande prognose is bijgesteld op basis van de inmiddels beschikbaar gekomen waarnemingen. De prognoseperiode loopt nu van 2024 tot 2070.
+
+Wanneer komen er nieuwe cijfers?
+De verschijningsfrequentie van deze tabel is eenmalig. In december 2025 wordt een nieuwe tabel gepubliceerd met de prognose van de bevolking.
+
+
+2. DEFINITIES EN VERKLARING VAN SYMBOLEN
+
+Definities:
+
+Bevolking
+De inwoners van Nederland. In de bevolkingsaantallen zijn uitsluitend personen begrepen die zijn opgenomen in het bevolkingsregister van een Nederlandse gemeente. In principe wordt iedereen die voor onbepaalde tijd in Nederland woont, opgenomen in het bevolkingsregister van de woongemeente. In de bevolkingsregisters zijn niet opgenomen de in Nederland wonende personen waarvoor uitzonderingsregels gelden met betrekking tot opneming in de bevolkingsregisters (bijvoorbeeld diplomaten en NAVO militairen) en personen die niet legaal in Nederland verblijven.
+
+Buitenlandse migratie
+Personen die zich in Nederland vestigen of inwoners die Nederland verlaten om zich buiten Nederland te vestigen.
+
+Demografische druk
+De som van het aantal personen van 0 tot 20 jaar en 65 jaar of ouder in verhouding tot de personen van 20 tot 65 jaar. Dit cijfer geeft inzicht in de verhouding van het niet-werkende deel van de bevolking tot het werkende deel van de bevolking.
+
+Leeftijd
+Het aantal gehele jaren dat op 1 januari van de geselecteerde periode is verstreken sinds de geboortedatum van de persoon.
+
+Leeftijdsspecifiek vruchtbaarheidscijfer
+Het aantal levend geboren kinderen dat uit vrouwen in een bepaalde leeftijdsgroep in een bepaald jaar wordt geboren gedeeld door het gemiddeld aantal vrouwen in die leeftijdsgroep in dat jaar.
+
+Levendgeborene
+Kind dat na geboorte enig teken van leven heeft vertoond, ongeacht de zwangerschapsduur.
+
+Overledene
+Persoon die is overleden waarbij een bevoegde arts een overlijdensakte heeft ondertekend.
+
+Periode-levensverwachting
+Het aantal jaren dat iemand van een bepaalde leeftijd naar verwachting nog te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.
+
+Prognose
+Verwachte toekomstige ontwikkeling.
+
+Prognose-interval
+Marge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose. Met betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.
+Indien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeen met respectievelijk de onder- en bovengrens van de totale bevolking.
+
+Sterftekans
+Kans op overlijden op een bepaalde leeftijd.
+
+Totaal vruchtbaarheidscijfer
+Dit cijfer kan worden opgevat als het gemiddelde aantal kinderen dat een vrouw krijgt indien de in een bepaald jaar waargenomen leeftijdsspecifieke vruchtbaarheidscijfers gedurende haar leven zouden gelden.
+
+Verklaring van symbolen:
+
+niets (blanco) : het cijfer kan op logische gronden niet voorkomen
+. : het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+* : voorlopige cijfers
+** : nader voorlopige cijfers
+
+
+3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
+
+Tabellen van de meest recente prognose en voorgaande prognoses kunt u vinden in <a href='https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=31770'>actuele prognose</a>, <a href='https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=31780'>voorgaande prognoses</a> of het <a href='https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=81936'>archief</a>.
+
+Relevante tabel:
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83474ned'>Bevolkingsontwikkeling; maand en jaar</a>
+
+Relevant artikel:
+<a href='https://www.cbs.nl/nl-nl/longread/statistische-trends/2024/kernprognose-2024-2070-een-miljoen-inwoners-erbij-in-2037'>Kernprognose 2024–2070: een miljoen inwoners erbij in 2037</a>
+
+Meer informatie is te vinden op de themapagina <a href='https://www.cbs.nl/nl-nl/maatschappij/bevolking'>Bevolking</a>.
+
+
+4. BRONNEN EN METHODEN
+
+De onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href='https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/prognose'>Prognose</a>. Deze tabel is onderdeel van de Kernprognose.
+
+Periode-overlevingstafel en cohort-overlevingstafel
+
+Een overlevingstafel start vaak met een hypothetische populatie van 100 duizend 0-jarigen. Op iedere leeftijd is er een kans op overlijden (de sterftekans). Hierdoor neemt met het stijgen van de leeftijd het aantal overlevenden af tot er op hoge leeftijd geen personen van de startpopulatie meer over zijn. De levensverwachting in een overlevingstafel geeft aan hoe oud een persoon gemiddeld wordt gegeven de sterftekansen.
+
+Een cohort-overlevingstafel is eigenlijk de meest voor de hand liggende overlevingstafel. Deze tafel laat zien wat het daadwerkelijk overlevings- en sterftepatroon is van personen die allen in hetzelfde jaar zijn geboren. Bij de berekening van de cohort-levensverwachting worden voor elke leeftijd de sterftekansen gebruikt van het jaar waarin men die leeftijd bereikt. De cohort-levensverwachting geeft dan ook aan wat de werkelijke levensduur is (of naar verwachting wordt, wanneer de waargenomen sterftekansen aangevuld zijn met sterftekansen uit de prognoseperiode).
+
+De periode-overlevingstafel is ontwikkeld om op basis van huidige gegevens toch uitspraken te kunnen doen over sterftekansen en de levensverwachting voor huidige populaties. Als basis voor een periode-overlevingstafel dienen de leeftijdsspecifieke sterftegegevens voor een bepaald kalenderjaar. Aangenomen wordt dat deze leeftijdsspecifieke sterftegegevens ook zullen gelden in de periode wanneer de populatie de betreffende leeftijden in hun latere leven zal bereiken. Er wordt op deze wijze dus een zogeheten synthetisch geboortecohort gecreëerd, waarvoor de leeftijdsspecifieke sterftegegevens uit een bepaald kalenderjaar op de verschillende leeftijden gelden. De periode-levensverwachting kan daardoor het beste worden geïnterpreteerd als een samenvattende maat voor de sterftekansen in een kalenderjaar. Het geeft aan hoe oud mensen gemiddeld zouden worden indien de sterftekansen-per-leeftijd van dat jaar hun hele leven zouden gelden.
+
+Beide typen overlevingstafels worden door het CBS gepubliceerd. Deze tabel bevat de periode-overlevingstafel.
+
+
+5. MEER INFORMATIE
+
+<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen
+Verveelvoudiging is toegestaan, mits het CBS als bron wordt vermeld."

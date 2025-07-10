@@ -1,0 +1,3 @@
+Identifier;Title;Description;MapYear;ReleasePolicy;Kind;ContainsGroups;ContainsCodes;CodesUrl;GroupsUrl
+PrognoseInterval;Prognose(-interval);;;;Dimension;False;True;PrognoseIntervalCodes.csv;
+Perioden;Perioden;;;False;TimeDimension;True;True;PeriodenCodes.csv;PeriodenGroups.csv

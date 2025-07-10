@@ -1,0 +1,33 @@
+Id;ParentId;Index;Title;Description
+10000_1;;3;Leeftijdsgroepen;"Leeftijd
+Het aantal gehele jaren dat op 1 januari van de geselecteerde periode is verstreken sinds de geboortedatum van de persoon."
+10000_2;;7;Leeftijdsgroepen relatief;"Leeftijd
+Het aantal gehele jaren dat op 1 januari van de geselecteerde periode is verstreken sinds de geboortedatum van de persoon."
+D000110_1;;11;Demografische druk;"De som van het aantal personen van 0 tot 20 jaar en 65 jaar of ouder in verhouding tot de personen van 20 tot 65 jaar.
+Dit cijfer geeft inzicht in de verhouding van het niet-werkende deel van de bevolking tot het werkende deel van de bevolking."
+M003629;;18;Periode-levensverwachting;"Het aantal jaren dat iemand van een bepaalde leeftijd naar verwachting nog te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.
+
+Sterftekans
+De kans op overlijden vóór het bereiken van de volgende leeftijd. 
+
+Overlevingstafel
+Tabel die aangeeft hoeveel van 100 duizend pasgeborenen de leeftijd van 0, 1, 2 jaar enzovoort, zullen bereiken op basis van de sterftekansen die zijn berekend uit het aantal overledenen en bevolkingsaantallen in een bepaalde periode."
+M000180;M003629;19;Bij geboorte;"Periode-levensverwachting bij geboorte
+Het aantal jaren dat iemand naar verwachting te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.
+
+Sterftekans
+De kans op overlijden vóór het bereiken van de volgende leeftijd.
+
+Overlevingstafel
+Tabel die aangeeft hoeveel van 100 duizend pasgeborenen de leeftijd van 0, 1, 2 jaar enzovoort, zullen bereiken op basis van de sterftekansen die zijn berekend uit het aantal overledenen en bevolkingsaantallen in een bepaalde periode."
+16500;M003629;23;Op de 65ste verjaardag;"Periode-levensverwachting op de 65ste verjaardag
+Het aantal jaren dat iemand van 65 jaar naar verwachting nog te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.
+
+Sterftekans
+De kans op overlijden vóór het bereiken van de volgende leeftijd. 
+
+Overlevingstafel
+Tabel die aangeeft hoeveel van 100 duizend pasgeborenen de leeftijd van 0, 1, 2 jaar enzovoort, zullen bereiken op basis van de sterftekansen die zijn berekend uit het aantal overledenen en bevolkingsaantallen in een bepaalde periode."
+M000183;;27;Buitenlandse migratie;"Het zich vestigen in Nederland van personen vanuit het buitenland (immigratie) of het vertrek van inwoners uit Nederland om zich in het buitenland te vestigen (emigratie).
+Niet-gemelde buitenlandse migratie wordt verantwoord in de statistiek van de administratieve correcties.
+"

@@ -1,0 +1,816 @@
+{
+  "Identifier": "86040NED",
+  "Title": "Prognose bevolking; kerncijfers 2024-2070",
+  "Description": "Deze tabel bevat prognoses van de bevolking van Nederland op 1 januari naar leeftijd (drie groepen) en de bevolkingsontwikkeling: het aantal levend geboren kinderen, het aantal overledenen en de buitenlandse migratie. Daarnaast bevat de tabel de demografische druk, het totaal vruchtbaarheidscijfer per vrouw en de periode-levensverwachting bij geboorte en op de 65ste verjaardag naar geslacht.\r\n\r\nDe periode-levensverwachting, berekend uit een periode-overlevingstafel, is een samenvattende maat voor de sterftekansen in een kalenderjaar. Het geeft aan hoe oud mensen gemiddeld zouden worden indien de sterftekansen-per-leeftijd van dat jaar hun hele leven zouden gelden. Zie paragraaf 4 voor een uitleg over het verschil tussen de periode-overlevingstafel en een cohort-overlevingstafel.\r\n\r\nIn de tabel zijn ook prognose-intervallen opgenomen.\r\n\r\nGegevens beschikbaar van 2024 tot en met 2070.\r\n\r\nStatus van de cijfers:\r\nDe cijfers in deze tabel zijn berekende prognosecijfers.\r\n\r\nWijzigingen per 17 december 2024:\r\nGeen, dit is een nieuwe tabel waarin de voorgaande prognose is bijgesteld op basis van de inmiddels beschikbaar gekomen waarnemingen. De prognoseperiode loopt nu van 2024 tot 2070.\r\n\r\nWanneer komen er nieuwe cijfers?\r\nDe verschijningsfrequentie van deze tabel is eenmalig. In december 2025 wordt een nieuwe tabel gepubliceerd met de prognose van de bevolking.\r\n\r\n\r\n",
+  "Modified": "2024-12-17T06:30:00+01:00",
+  "ReleaseDate": "2024-12-17T06:30:00+01:00",
+  "ModificationDate": "2024-12-17T06:30:00+01:00",
+  "Language": "nl",
+  "TemporalCoverage": "2024-2070",
+  "Authority": "https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "Catalog": "CBS",
+  "Publisher": "https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "ContactPoint": "infoservice@cbs.nl",
+  "Version": "202412170630",
+  "VersionNotes": "",
+  "VersionReason": "Nieuw",
+  "Frequency": "Eenmalig",
+  "Provenance": [
+    {
+      "Title": "Prognose",
+      "Url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/prognose"
+    }
+  ],
+  "Status": "Regulier",
+  "ObservationCount": 5170,
+  "ObservationsModified": "2024-12-17T06:30:00+01:00",
+  "DatasetType": "Numeric",
+  "RelatedSources": [
+    {
+      "Title": "actuele prognose",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=31770"
+    },
+    {
+      "Title": "voorgaande prognoses",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=31780"
+    },
+    {
+      "Title": "archief",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=81936"
+    },
+    {
+      "Title": "Bevolkingsontwikkeling; maand en jaar",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83474ned"
+    },
+    {
+      "Title": "Kernprognose 2024–2070: een miljoen inwoners erbij in 2037",
+      "Url": "https://www.cbs.nl/nl-nl/longread/statistische-trends/2024/kernprognose-2024-2070-een-miljoen-inwoners-erbij-in-2037"
+    },
+    {
+      "Title": "Bevolking",
+      "Url": "https://www.cbs.nl/nl-nl/maatschappij/bevolking"
+    }
+  ],
+  "GraphTypes": "Table,Bar,Line",
+  "MeasureGroups": [
+    {
+      "Id": "10000_1",
+      "Index": 3,
+      "Title": "Leeftijdsgroepen",
+      "Description": "Leeftijd\r\nHet aantal gehele jaren dat op 1 januari van de geselecteerde periode is verstreken sinds de geboortedatum van de persoon.",
+      "ParentId": null,
+      "DatasetId": "86040NED"
+    },
+    {
+      "Id": "10000_2",
+      "Index": 7,
+      "Title": "Leeftijdsgroepen relatief",
+      "Description": "Leeftijd\r\nHet aantal gehele jaren dat op 1 januari van de geselecteerde periode is verstreken sinds de geboortedatum van de persoon.",
+      "ParentId": null,
+      "DatasetId": "86040NED"
+    },
+    {
+      "Id": "D000110_1",
+      "Index": 11,
+      "Title": "Demografische druk",
+      "Description": "De som van het aantal personen van 0 tot 20 jaar en 65 jaar of ouder in verhouding tot de personen van 20 tot 65 jaar.\r\nDit cijfer geeft inzicht in de verhouding van het niet-werkende deel van de bevolking tot het werkende deel van de bevolking.",
+      "ParentId": null,
+      "DatasetId": "86040NED"
+    },
+    {
+      "Id": "M003629",
+      "Index": 18,
+      "Title": "Periode-levensverwachting",
+      "Description": "Het aantal jaren dat iemand van een bepaalde leeftijd naar verwachting nog te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.\r\n\r\nSterftekans\r\nDe kans op overlijden vóór het bereiken van de volgende leeftijd. \r\n\r\nOverlevingstafel\r\nTabel die aangeeft hoeveel van 100 duizend pasgeborenen de leeftijd van 0, 1, 2 jaar enzovoort, zullen bereiken op basis van de sterftekansen die zijn berekend uit het aantal overledenen en bevolkingsaantallen in een bepaalde periode.",
+      "ParentId": null,
+      "DatasetId": "86040NED"
+    },
+    {
+      "Id": "M000180",
+      "Index": 19,
+      "Title": "Bij geboorte",
+      "Description": "Periode-levensverwachting bij geboorte\r\nHet aantal jaren dat iemand naar verwachting te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.\r\n\r\nSterftekans\r\nDe kans op overlijden vóór het bereiken van de volgende leeftijd.\r\n\r\nOverlevingstafel\r\nTabel die aangeeft hoeveel van 100 duizend pasgeborenen de leeftijd van 0, 1, 2 jaar enzovoort, zullen bereiken op basis van de sterftekansen die zijn berekend uit het aantal overledenen en bevolkingsaantallen in een bepaalde periode.",
+      "ParentId": "M003629",
+      "DatasetId": "86040NED"
+    },
+    {
+      "Id": "16500",
+      "Index": 23,
+      "Title": "Op de 65ste verjaardag",
+      "Description": "Periode-levensverwachting op de 65ste verjaardag\r\nHet aantal jaren dat iemand van 65 jaar naar verwachting nog te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.\r\n\r\nSterftekans\r\nDe kans op overlijden vóór het bereiken van de volgende leeftijd. \r\n\r\nOverlevingstafel\r\nTabel die aangeeft hoeveel van 100 duizend pasgeborenen de leeftijd van 0, 1, 2 jaar enzovoort, zullen bereiken op basis van de sterftekansen die zijn berekend uit het aantal overledenen en bevolkingsaantallen in een bepaalde periode.",
+      "ParentId": "M003629",
+      "DatasetId": "86040NED"
+    },
+    {
+      "Id": "M000183",
+      "Index": 27,
+      "Title": "Buitenlandse migratie",
+      "Description": "Het zich vestigen in Nederland van personen vanuit het buitenland (immigratie) of het vertrek van inwoners uit Nederland om zich in het buitenland te vestigen (emigratie).\r\nNiet-gemelde buitenlandse migratie wordt verantwoord in de statistiek van de administratieve correcties.\r\n",
+      "ParentId": null,
+      "DatasetId": "86040NED"
+    }
+  ],
+  "Measures": [
+    {
+      "Identifier": "M000352",
+      "Index": 2,
+      "Title": "Bevolking op 1 januari",
+      "Description": "Bevolking \r\nDe bewoners van een bepaald gebied.\r\nIn de CBS-bevolkingsaantallen zijn uitsluitend personen begrepen die zijn opgenomen in het bevolkingsregister van een Nederlandse gemeente. In principe wordt iedereen die voor onbepaalde tijd in Nederland woont, opgenomen in het bevolkingsregister van de woongemeente. Personen die tot de bevolking van Nederland behoren, maar voor wie geen vaste woonplaats valt aan te wijzen, zijn opgenomen in het bevolkingsregister van de gemeente 's-Gravenhage. In de bevolkingsregisters zijn niet opgenomen de in Nederland wonende personen waarvoor uitzonderingsregels gelden met betrekking tot opneming in de bevolkingsregisters (bijvoorbeeld diplomaten en NAVO militairen) en personen die niet legaal in Nederland verblijven.",
+      "MeasureGroupId": null,
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "80000_1",
+      "Index": 4,
+      "Title": "0 tot 20 jaar",
+      "Description": "",
+      "MeasureGroupId": "10000_1",
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "80100_1",
+      "Index": 5,
+      "Title": "20 tot 65 jaar",
+      "Description": "",
+      "MeasureGroupId": "10000_1",
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "80200_1",
+      "Index": 6,
+      "Title": "65 jaar en ouder",
+      "Description": "",
+      "MeasureGroupId": "10000_1",
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "80000_2",
+      "Index": 8,
+      "Title": "%   0 tot 20 jaar",
+      "Description": "",
+      "MeasureGroupId": "10000_2",
+      "DataType": "Float",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "80100_2",
+      "Index": 9,
+      "Title": "% 20 tot 65 jaar",
+      "Description": "",
+      "MeasureGroupId": "10000_2",
+      "DataType": "Float",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "80200_2",
+      "Index": 10,
+      "Title": "% 65 jaar en ouder",
+      "Description": "",
+      "MeasureGroupId": "10000_2",
+      "DataType": "Float",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "D000110_2",
+      "Index": 12,
+      "Title": "Totale druk",
+      "Description": "Demografische druk\r\nDe som van het aantal personen van 0 tot 20 jaar en 65 jaar of ouder in verhouding tot de personen van 20 tot 65 jaar.\r\nDit cijfer geeft inzicht in de verhouding van het niet-werkende deel van de bevolking tot het werkende deel van de bevolking.",
+      "MeasureGroupId": "D000110_1",
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "D000117",
+      "Index": 13,
+      "Title": "Groene druk",
+      "Description": "De verhouding tussen het aantal personen van 0 tot 20 jaar en het aantal personen van 20 tot 65 jaar.\r\nDit cijfer geeft inzicht in de verhouding van de jeugd tot het werkende deel van de bevolking.",
+      "MeasureGroupId": "D000110_1",
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "D000116",
+      "Index": 14,
+      "Title": "Grijze druk",
+      "Description": "De verhouding tussen het aantal personen van 65 jaar of ouder en het aantal personen van 20 tot 65 jaar.\r\nDit cijfer geeft inzicht in de verhouding van de ouderen tot het werkende deel van de bevolking. \r\n",
+      "MeasureGroupId": "D000110_1",
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "D000128",
+      "Index": 15,
+      "Title": "Levend geboren kinderen",
+      "Description": "Kind dat na geboorte enig teken van leven heeft vertoond, ongeacht de zwangerschapsduur.\r\n",
+      "MeasureGroupId": null,
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "M005167",
+      "Index": 16,
+      "Title": "Totaal vruchtbaarheidscijfer",
+      "Description": "De som van de afzonderlijke leeftijdsspecifieke vruchtbaarheidscijfers.\r\nDit cijfer kan worden opgevat als het gemiddelde aantal kinderen dat een vrouw krijgt indien de in een bepaald jaar waargenomen\r\nleeftijdsspecifieke vruchtbaarheidscijfers gedurende haar leven zouden gelden.",
+      "MeasureGroupId": null,
+      "DataType": "Float",
+      "Unit": "aantal",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "M000134",
+      "Index": 17,
+      "Title": "Overledenen",
+      "Description": "Persoon die is overleden waarbij een bevoegde arts een overlijdensakte heeft ondertekend.\r\nIn CBS-statistieken hebben overledenen betrekking op personen die bij overlijden in het bevolkingsregister van een Nederlandse gemeente zijn opgenomen, ongeacht het land waar het overlijden heeft plaatsgevonden. Personen die niet in Nederland wonen maar wel hier overlijden worden niet meegeteld.",
+      "MeasureGroupId": null,
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "T001038_1",
+      "Index": 20,
+      "Title": "Totaal",
+      "Description": "",
+      "MeasureGroupId": "M000180",
+      "DataType": "Double",
+      "Unit": "jaar",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "3000_1",
+      "Index": 21,
+      "Title": "Mannen",
+      "Description": "",
+      "MeasureGroupId": "M000180",
+      "DataType": "Double",
+      "Unit": "jaar",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "4000_1",
+      "Index": 22,
+      "Title": "Vrouwen",
+      "Description": "",
+      "MeasureGroupId": "M000180",
+      "DataType": "Double",
+      "Unit": "jaar",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "T001038_2",
+      "Index": 24,
+      "Title": "Totaal",
+      "Description": "",
+      "MeasureGroupId": "16500",
+      "DataType": "Double",
+      "Unit": "jaar",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "3000_2",
+      "Index": 25,
+      "Title": "Mannen",
+      "Description": "",
+      "MeasureGroupId": "16500",
+      "DataType": "Double",
+      "Unit": "jaar",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "4000_2",
+      "Index": 26,
+      "Title": "Vrouwen",
+      "Description": "",
+      "MeasureGroupId": "16500",
+      "DataType": "Double",
+      "Unit": "jaar",
+      "Decimals": 2,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "M000167",
+      "Index": 28,
+      "Title": "Immigratie",
+      "Description": "Vestiging van personen vanuit het buitenland in Nederland.\r\n\r\nOm als immigrant te kunnen worden geteld dienen deze personen ingeschreven te worden in de gemeentelijke bevolkingsregisters. Tot en met september 1994: een aantal speciale gevallen uitgezonderd, vond opneming voor een persoon met de Nederlandse nationaliteit plaats als deze zich voor langer dan 30 dagen dacht te vestigen en voor een persoon met een niet-Nederlandse nationaliteit als de verwachte vestigingsduur de 180 dagen overschreed. Vanaf oktober 1994: men wordt ingeschreven als men verwacht minimaal vier maanden in Nederland te blijven.\r\n",
+      "MeasureGroupId": "M000183",
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "M000168",
+      "Index": 29,
+      "Title": "Emigratie (inclusief correcties)",
+      "Description": "Vertrek van personen naar het buitenland.\r\n\r\nTot en met september 1994 werd men uit het bevolkingsregister afgevoerd wanneer men Nederland voor langer dan 360 dagen dacht te verlaten. Met ingang van oktober 1994 geldt dat de verwachte verblijfsduur in het buitenland ten minste acht maanden bedraagt. Het gaat hier steeds om de aan de gemeente gemelde emigratie.\r\n\r\nAdministratieve correctie\r\nOpneming van een persoon in het gemeentelijke bevolkingsregister of afvoering van een persoon uit het gemeentelijke bevolkingsregister die niet het gevolg is van geboorte, sterfte, vestiging, vertrek of gemeentegrenswijziging.\r\nAdministratieve correcties zijn meestal het gevolg van niet aan de gemeente gemelde emigratie.\r\n",
+      "MeasureGroupId": "M000183",
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "M000244",
+      "Index": 30,
+      "Title": "Migratiesaldo (inclusief correcties)",
+      "Description": "Het aantal gevestigde personen uit het buitenland min het aantal vertrokken personen naar het buitenland, inclusief het saldo van de administratieve correcties.\r\nAangezien het saldo administratieve correcties op nationaal niveau wordt gezien als niet gemelde emigratie, is het migratiesaldo inclusief het saldo administratieve correcties dus het saldo van de (gemelde én niet-gemelde) buitenlandse migratie.\r\n\r\nAdministratieve correctie\r\nOpneming van een persoon in het gemeentelijke bevolkingsregister of afvoering van een persoon uit het gemeentelijke bevolkingsregister die niet het gevolg is van geboorte, sterfte, vestiging, vertrek of gemeentegrenswijziging.\r\nAdministratieve correcties zijn meestal het gevolg van niet aan de gemeente gemelde emigratie.",
+      "MeasureGroupId": "M000183",
+      "DataType": "Long",
+      "Unit": "aantal",
+      "Decimals": 0,
+      "PresentationType": null
+    }
+  ],
+  "Dimensions": [
+    {
+      "Identifier": "PrognoseInterval",
+      "Title": "Prognose(-interval)",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [],
+      "CodeList": [
+        {
+          "Identifier": "MW00000",
+          "Index": 1,
+          "Title": "Prognose",
+          "Description": "Verwachte toekomstige ontwikkeling.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "MOG0095",
+          "Index": 2,
+          "Title": "Ondergrens 95%-prognose-interval",
+          "Description": "Prognose-interval\r\nMarge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.\r\nMet betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.\r\nIndien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "MBG0095",
+          "Index": 3,
+          "Title": "Bovengrens 95%-prognose-interval",
+          "Description": "Prognose-interval\r\nMarge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.\r\nMet betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.\r\nIndien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "MOG0067",
+          "Index": 4,
+          "Title": "Ondergrens 67%-prognose-interval",
+          "Description": "Prognose-interval\r\nMarge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.\r\nMet betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.\r\nIndien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "MBG0067",
+          "Index": 5,
+          "Title": "Bovengrens 67%-prognose-interval",
+          "Description": "Prognose-interval\r\nMarge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.\r\nMet betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.\r\nIndien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking.",
+          "DimensionGroupId": null
+        }
+      ]
+    },
+    {
+      "CodeList": [
+        {
+          "Status": null,
+          "Identifier": "2024JJ00",
+          "Index": 1,
+          "Title": "2024",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2025JJ00",
+          "Index": 2,
+          "Title": "2025",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2026JJ00",
+          "Index": 3,
+          "Title": "2026",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2027JJ00",
+          "Index": 4,
+          "Title": "2027",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2028JJ00",
+          "Index": 5,
+          "Title": "2028",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2029JJ00",
+          "Index": 6,
+          "Title": "2029",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2030JJ00",
+          "Index": 7,
+          "Title": "2030",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2031JJ00",
+          "Index": 8,
+          "Title": "2031",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2032JJ00",
+          "Index": 9,
+          "Title": "2032",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2033JJ00",
+          "Index": 10,
+          "Title": "2033",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2034JJ00",
+          "Index": 11,
+          "Title": "2034",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2035JJ00",
+          "Index": 12,
+          "Title": "2035",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2036JJ00",
+          "Index": 13,
+          "Title": "2036",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2037JJ00",
+          "Index": 14,
+          "Title": "2037",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2038JJ00",
+          "Index": 15,
+          "Title": "2038",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2039JJ00",
+          "Index": 16,
+          "Title": "2039",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2040JJ00",
+          "Index": 17,
+          "Title": "2040",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2041JJ00",
+          "Index": 18,
+          "Title": "2041",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2042JJ00",
+          "Index": 19,
+          "Title": "2042",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2043JJ00",
+          "Index": 20,
+          "Title": "2043",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2044JJ00",
+          "Index": 21,
+          "Title": "2044",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2045JJ00",
+          "Index": 22,
+          "Title": "2045",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2046JJ00",
+          "Index": 23,
+          "Title": "2046",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2047JJ00",
+          "Index": 24,
+          "Title": "2047",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2048JJ00",
+          "Index": 25,
+          "Title": "2048",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2049JJ00",
+          "Index": 26,
+          "Title": "2049",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2050JJ00",
+          "Index": 27,
+          "Title": "2050",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2051JJ00",
+          "Index": 28,
+          "Title": "2051",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2052JJ00",
+          "Index": 29,
+          "Title": "2052",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2053JJ00",
+          "Index": 30,
+          "Title": "2053",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2054JJ00",
+          "Index": 31,
+          "Title": "2054",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2055JJ00",
+          "Index": 32,
+          "Title": "2055",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2056JJ00",
+          "Index": 33,
+          "Title": "2056",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2057JJ00",
+          "Index": 34,
+          "Title": "2057",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2058JJ00",
+          "Index": 35,
+          "Title": "2058",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2059JJ00",
+          "Index": 36,
+          "Title": "2059",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2060JJ00",
+          "Index": 37,
+          "Title": "2060",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2061JJ00",
+          "Index": 38,
+          "Title": "2061",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2062JJ00",
+          "Index": 39,
+          "Title": "2062",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2063JJ00",
+          "Index": 40,
+          "Title": "2063",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2064JJ00",
+          "Index": 41,
+          "Title": "2064",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2065JJ00",
+          "Index": 42,
+          "Title": "2065",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2066JJ00",
+          "Index": 43,
+          "Title": "2066",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2067JJ00",
+          "Index": 44,
+          "Title": "2067",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2068JJ00",
+          "Index": 45,
+          "Title": "2068",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2069JJ00",
+          "Index": 46,
+          "Title": "2069",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": null,
+          "Identifier": "2070JJ00",
+          "Index": 47,
+          "Title": "2070",
+          "Description": "",
+          "DimensionGroupId": "0"
+        }
+      ],
+      "Identifier": "Perioden",
+      "Title": "Perioden",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": false,
+      "Kind": "TimeDimension",
+      "DimensionGroups": [
+        {
+          "Id": "0",
+          "Index": 0,
+          "Title": "Jaren",
+          "Description": null,
+          "ParentId": null
+        }
+      ]
+    }
+  ],
+  "Distributions": [
+    {
+      "Format": "csv",
+      "MediaType": "csv",
+      "Language": "nl"
+    },
+    {
+      "Format": "odata",
+      "MediaType": "odata",
+      "Language": "nl"
+    }
+  ],
+  "License": "https://creativecommons.org/licenses/by/4.0/",
+  "Source": "CBS.",
+  "Summary": "Kernprognose; bevolkingsomvang, demografische druk, geboorte,\nvruchtbaarheidscijfers, sterfte, levensverwachting en migratie",
+  "LongDescription": "INHOUDSOPGAVE\r\n\r\n1. Toelichting\r\n2. Definities en verklaring van symbolen\r\n3. Koppelingen naar relevante tabellen en artikelen\r\n4. Bronnen en methoden\r\n5. Meer informatie\r\n\r\n\r\n1. TOELICHTING\r\n\r\nDeze tabel bevat prognoses van de bevolking van Nederland op 1 januari naar leeftijd (drie groepen) en de bevolkingsontwikkeling: het aantal levend geboren kinderen, het aantal overledenen en de buitenlandse migratie. Daarnaast bevat de tabel de demografische druk, het totaal vruchtbaarheidscijfer per vrouw en de periode-levensverwachting bij geboorte en op de 65ste verjaardag naar geslacht.\r\n\r\nDe periode-levensverwachting, berekend uit een periode-overlevingstafel, is een samenvattende maat voor de sterftekansen in een kalenderjaar. Het geeft aan hoe oud mensen gemiddeld zouden worden indien de sterftekansen-per-leeftijd van dat jaar hun hele leven zouden gelden. Zie paragraaf 4 voor een uitleg over het verschil tussen de periode-overlevingstafel en een cohort-overlevingstafel.\r\n\r\nIn de tabel zijn ook prognose-intervallen opgenomen.\r\n\r\nGegevens beschikbaar van 2024 tot en met 2070.\r\n\r\nStatus van de cijfers:\r\nDe cijfers in deze tabel zijn berekende prognosecijfers.\r\n\r\nWijzigingen per 17 december 2024:\r\nGeen, dit is een nieuwe tabel waarin de voorgaande prognose is bijgesteld op basis van de inmiddels beschikbaar gekomen waarnemingen. De prognoseperiode loopt nu van 2024 tot 2070.\r\n\r\nWanneer komen er nieuwe cijfers?\r\nDe verschijningsfrequentie van deze tabel is eenmalig. In december 2025 wordt een nieuwe tabel gepubliceerd met de prognose van de bevolking.\r\n\r\n\r\n2. DEFINITIES EN VERKLARING VAN SYMBOLEN\r\n\r\nDefinities:\r\n\r\nBevolking\r\nDe inwoners van Nederland. In de bevolkingsaantallen zijn uitsluitend personen begrepen die zijn opgenomen in het bevolkingsregister van een Nederlandse gemeente. In principe wordt iedereen die voor onbepaalde tijd in Nederland woont, opgenomen in het bevolkingsregister van de woongemeente. In de bevolkingsregisters zijn niet opgenomen de in Nederland wonende personen waarvoor uitzonderingsregels gelden met betrekking tot opneming in de bevolkingsregisters (bijvoorbeeld diplomaten en NAVO militairen) en personen die niet legaal in Nederland verblijven.\r\n\r\nBuitenlandse migratie\r\nPersonen die zich in Nederland vestigen of inwoners die Nederland verlaten om zich buiten Nederland te vestigen.\r\n\r\nDemografische druk\r\nDe som van het aantal personen van 0 tot 20 jaar en 65 jaar of ouder in verhouding tot de personen van 20 tot 65 jaar. Dit cijfer geeft inzicht in de verhouding van het niet-werkende deel van de bevolking tot het werkende deel van de bevolking.\r\n\r\nLeeftijd\r\nHet aantal gehele jaren dat op 1 januari van de geselecteerde periode is verstreken sinds de geboortedatum van de persoon.\r\n\r\nLeeftijdsspecifiek vruchtbaarheidscijfer\r\nHet aantal levend geboren kinderen dat uit vrouwen in een bepaalde leeftijdsgroep in een bepaald jaar wordt geboren gedeeld door het gemiddeld aantal vrouwen in die leeftijdsgroep in dat jaar.\r\n\r\nLevendgeborene\r\nKind dat na geboorte enig teken van leven heeft vertoond, ongeacht de zwangerschapsduur.\r\n\r\nOverledene\r\nPersoon die is overleden waarbij een bevoegde arts een overlijdensakte heeft ondertekend.\r\n\r\nPeriode-levensverwachting\r\nHet aantal jaren dat iemand van een bepaalde leeftijd naar verwachting nog te leven heeft (berekend uit een overlevingstafel), onder de veronderstelling dat de sterftekansen vanaf het geselecteerde prognosejaar niet zullen veranderen.\r\n\r\nPrognose\r\nVerwachte toekomstige ontwikkeling.\r\n\r\nPrognose-interval\r\nMarge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose. Met betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.\r\nIndien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeen met respectievelijk de onder- en bovengrens van de totale bevolking.\r\n\r\nSterftekans\r\nKans op overlijden op een bepaalde leeftijd.\r\n\r\nTotaal vruchtbaarheidscijfer\r\nDit cijfer kan worden opgevat als het gemiddelde aantal kinderen dat een vrouw krijgt indien de in een bepaald jaar waargenomen leeftijdsspecifieke vruchtbaarheidscijfers gedurende haar leven zouden gelden.\r\n\r\nVerklaring van symbolen:\r\n\r\nniets (blanco) : het cijfer kan op logische gronden niet voorkomen\r\n. : het cijfer is onbekend, onvoldoende betrouwbaar of geheim\r\n* : voorlopige cijfers\r\n** : nader voorlopige cijfers\r\n\r\n\r\n3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN\r\n\r\nTabellen van de meest recente prognose en voorgaande prognoses kunt u vinden in <a href='https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=31770'>actuele prognose</a>, <a href='https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=31780'>voorgaande prognoses</a> of het <a href='https://opendata.cbs.nl/statline/#/CBS/nl/navigatieScherm/thema?themaNr=81936'>archief</a>.\r\n\r\nRelevante tabel:\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83474ned'>Bevolkingsontwikkeling; maand en jaar</a>\r\n\r\nRelevant artikel:\r\n<a href='https://www.cbs.nl/nl-nl/longread/statistische-trends/2024/kernprognose-2024-2070-een-miljoen-inwoners-erbij-in-2037'>Kernprognose 2024–2070: een miljoen inwoners erbij in 2037</a>\r\n\r\nMeer informatie is te vinden op de themapagina <a href='https://www.cbs.nl/nl-nl/maatschappij/bevolking'>Bevolking</a>.\r\n\r\n\r\n4. BRONNEN EN METHODEN\r\n\r\nDe onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href='https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/prognose'>Prognose</a>. Deze tabel is onderdeel van de Kernprognose.\r\n\r\nPeriode-overlevingstafel en cohort-overlevingstafel\r\n\r\nEen overlevingstafel start vaak met een hypothetische populatie van 100 duizend 0-jarigen. Op iedere leeftijd is er een kans op overlijden (de sterftekans). Hierdoor neemt met het stijgen van de leeftijd het aantal overlevenden af tot er op hoge leeftijd geen personen van de startpopulatie meer over zijn. De levensverwachting in een overlevingstafel geeft aan hoe oud een persoon gemiddeld wordt gegeven de sterftekansen.\r\n\r\nEen cohort-overlevingstafel is eigenlijk de meest voor de hand liggende overlevingstafel. Deze tafel laat zien wat het daadwerkelijk overlevings- en sterftepatroon is van personen die allen in hetzelfde jaar zijn geboren. Bij de berekening van de cohort-levensverwachting worden voor elke leeftijd de sterftekansen gebruikt van het jaar waarin men die leeftijd bereikt. De cohort-levensverwachting geeft dan ook aan wat de werkelijke levensduur is (of naar verwachting wordt, wanneer de waargenomen sterftekansen aangevuld zijn met sterftekansen uit de prognoseperiode).\r\n\r\nDe periode-overlevingstafel is ontwikkeld om op basis van huidige gegevens toch uitspraken te kunnen doen over sterftekansen en de levensverwachting voor huidige populaties. Als basis voor een periode-overlevingstafel dienen de leeftijdsspecifieke sterftegegevens voor een bepaald kalenderjaar. Aangenomen wordt dat deze leeftijdsspecifieke sterftegegevens ook zullen gelden in de periode wanneer de populatie de betreffende leeftijden in hun latere leven zal bereiken. Er wordt op deze wijze dus een zogeheten synthetisch geboortecohort gecreëerd, waarvoor de leeftijdsspecifieke sterftegegevens uit een bepaald kalenderjaar op de verschillende leeftijden gelden. De periode-levensverwachting kan daardoor het beste worden geïnterpreteerd als een samenvattende maat voor de sterftekansen in een kalenderjaar. Het geeft aan hoe oud mensen gemiddeld zouden worden indien de sterftekansen-per-leeftijd van dat jaar hun hele leven zouden gelden.\r\n\r\nBeide typen overlevingstafels worden door het CBS gepubliceerd. Deze tabel bevat de periode-overlevingstafel.\r\n\r\n\r\n5. MEER INFORMATIE\r\n\r\n<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>\r\n\r\nCopyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen\r\nVerveelvoudiging is toegestaan, mits het CBS als bron wordt vermeld."
+}

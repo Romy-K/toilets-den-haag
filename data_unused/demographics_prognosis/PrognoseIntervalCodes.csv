@@ -1,0 +1,18 @@
+Identifier;DimensionGroupId;DimensionId;Index;Title;Description
+MW00000;;PrognoseInterval;1;Prognose;Verwachte toekomstige ontwikkeling.
+MOG0095;;PrognoseInterval;2;Ondergrens 95%-prognose-interval;"Prognose-interval
+Marge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.
+Met betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.
+Indien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking."
+MBG0095;;PrognoseInterval;3;Bovengrens 95%-prognose-interval;"Prognose-interval
+Marge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.
+Met betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.
+Indien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking."
+MOG0067;;PrognoseInterval;4;Ondergrens 67%-prognose-interval;"Prognose-interval
+Marge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.
+Met betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.
+Indien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking."
+MBG0067;;PrognoseInterval;5;Bovengrens 67%-prognose-interval;"Prognose-interval
+Marge (onder- of bovengrens) rond een prognose die een indruk geeft van de verwachte nauwkeurigheid van die prognose.
+Met betrekking tot prognose-intervallen van de bevolking wordt aangenomen dat de kans dat de toekomstige bevolkingsomvang hiertussen zal liggen 67% dan wel 95% is. Opgemerkt dient te worden dat deze kansverdeling ook een prognose is aangezien deze gebaseerd is op aannamen waarvan de geldigheid onzeker is.
+Indien cijfers voor verschillende leeftijdsgroepen worden gepresenteerd dan hebben de onder- en bovengrens van het 67% en het 95% prognose-interval betrekking op elke afzonderlijke leeftijdsgroep. De som van de cijfers over alle onderscheiden leeftijdsklassen voor zowel de ondergrens als de bovengrens komt niet overeenkomt met respectievelijk de onder- en bovengrens van de totale bevolking."

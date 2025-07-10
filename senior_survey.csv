@@ -1,0 +1,25 @@
+QuestionCode,QuestionText,Option,Percentage,Respondents
+Q10,How would you rate the amount of public toilets in the Netherlands?,Far too few,66,4999
+Q10,How would you rate the amount of public toilets in the Netherlands?,Too few,33,4999
+Q10,How would you rate the amount of public toilets in the Netherlands?,Sufficient,1,4999
+Q10,How would you rate the amount of public toilets in the Netherlands?,More than enough,0,4999
+Q10,How would you rate the amount of public toilets in the Netherlands?,Way too many,0,4999
+Q11,Where are toilets lacking especially?,Shopping areas,47,4928
+Q11,Where are toilets lacking especially?,City and town centers,45,4928
+Q11,Where are toilets lacking especially?,Parks/recreational areas,30,4928
+Q11,Where are toilets lacking especially?,Nature reserves,28,4928
+Q11,Where are toilets lacking especially?,Along main roads and highways,20,4928
+Q11,Where are toilets lacking especially?,Stations,14,4928
+Q11,Where are toilets lacking especially?,On the train,11,4928
+Q11,Where are toilets lacking especially?,At events,6,4928
+Q11,Where are toilets lacking especially?,Museums/cultural institutions,2,4928
+Q11,Where are toilets lacking especially?,Hospitals/health institutions,1,4928
+Q11,Where are toilets lacking especially?,Other,1,4928
+Q11,Where are toilets lacking especially?,Don't know/no answer,1,4928
+Q15,Have you ever been refused to use a toilet in an establishment?,"Yes, I have",26,5447
+Q15,Have you ever been refused to use a toilet in an establishment?,"No, but I had to make a purchase",32,5447
+Q15,Have you ever been refused to use a toilet in an establishment?,"No, I always get to use the toilet when I ask",23,5447
+Q15,Have you ever been refused to use a toilet in an establishment?,I never ask,20,5447
+Q19,Do you ever skip an activity for fear of not finding a toilet?,"Yes, regularly",11,5447
+Q19,Do you ever skip an activity for fear of not finding a toilet?,"Yes, sometimes",39,5447
+Q19,Do you ever skip an activity for fear of not finding a toilet?,"No, never",49,5447

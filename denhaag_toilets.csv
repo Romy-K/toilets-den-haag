@@ -1,0 +1,71 @@
+X,Y,objectid,Omschrijving,Soort,Adres,esrignss_latitude,esrignss_longitude,esrignss_altitude,GlobalID,CreationDate,EditDate,Openbaar,zelfreinigend,Rolstoel_toegankelijk,Alleen_mannen,Openingstijden,Verschoontafel
+4.31108177642078,52.078939157979,"1",Toilet Buitenhof,Openbaar,,,,,{E1A1BD9A-86E0-4BA5-A4E6-A5B17AA384F7},,,,ja,ja,nee,24/7,nee
+4.31926680967038,52.07333521207,"4",Toilet Huijgenspark,Openbaar,Huijgenspark,,,,{8494FAE1-A129-4E09-8463-C54A23268019},,,,ja,ja,nee,24/7,nee
+4.26586552226635,52.0567517573484,"5",Leyweg Busplatform,Openbaar,Leyweg,,,,{2DEC16C4-9CAE-4E34-B40D-01FC2F4E7A3F},,,,ja,ja,nee,24/7,nee
+4.28857778097772,52.1170040513727,"6",Zwarte Pad einde tramlijn 9,Openbaar,Zwarte Pad,,,,{F9B1331C-39ED-48D0-A675-E2FEDD485971},,,,ja,ja,nee,24/7,nee
+4.27093363962214,52.1067422957382,"7",Zeeruststraat Einde tramlijn 11,Openbaar,,,,,{B1C76B54-9F97-428D-BF2A-F716EB58ABD8},,,,,,,,
+4.30794469613065,52.0760188195499,"8",Toilet Laan,Openbaar,Laan 5-9,,,,{3E0B3D5F-C570-49CD-AC8E-24AB22E7B20D},,,,ja,ja,nee,24/7,nee
+4.28069870691162,52.0583783424055,"9",Openbaar Toilet Zuiderpark,Openbaar,Anna Polakweg,,,,{9F112216-32D7-4753-BCB2-B73E60D32E9B},,,,ja,ja,nee,24/7,nee
+4.3175477922494,52.0782086972373,"10",Toilet Stadhuis Spui,Opengesteld,Spui 70,,,,{4AD1A7BE-7955-4F32-AA23-46137D5371BC},,,,nee,ja,nee,,nee
+4.3161148075783,52.0774366448028,"11",Centrale Bibliotheek Den Haag,Opengesteld,Spui,,,,{307D1530-18D4-4058-96A1-84E8048B9567},,,,nee,ja,nee,Maandag t/m zondag 10.00-17.00,ja
+4.2833612110914,52.1148315727498,"12",Toilet Palace promenade,Openbaar,,,,,{26ABD20D-A705-4C4A-91B3-A389BBACDBA4},,,ja,nee,nee,nee,maandag t/m zondag 10.00-18.00,nee
+4.28924549257911,52.0562236847849,"13",Toilet Sportcampus zuiderpark,Opengesteld,Mr. P. Droogleever Fortuynweg,,,,{F01CEE27-842E-48C8-99A2-62025407F88B},,,,nee,ja,nee,maandag t/m zondag 8.00- 23.00,ja
+4.2804247732452,52.0449131966969,"14",Stadsdeelkantoor Leyweg,Opengesteld,Leyweg 813,,,,{9C26A682-163C-40C0-B2B3-DF8279B2F535},,,,nee,ja,nee,maandag t/m vrijdag 8.30- 16.30,nee
+4.32415643215492,52.081400831512,"15",Station Den Haag Centraal,Openbaar,Station CS,,,,{8917D37A-E862-403D-8353-F9A42C5B13B7},,,ja,nee,ja,nee,maandag t/m zondag 7.00 - 21.00,nee
+4.32203106199185,52.0699595589923,"16",Station Den Haag Hollands Spoor,Openbaar,Hollands Spoor,,,,{A1AC4646-E5AF-44E5-A68B-881CA0D781CB},,,Sanifair,nee,nee,nee,maandag t/m zondag 7.00- 21.00,nee
+4.34300793649098,52.0792263407941,"17",Station Laan van NOI,Openbaar,Anna van Hannoverstraat,,,,{BD47ED26-DF09-4F2A-AAC9-B013326AD2DC},,,,nee,nee,nee,24/7,nee
+4.368897404569,52.0906403098703,"18",Station Mariahoeve,Openbaar,Station Mariahoeve,,,,{27CD5B12-EA3F-4F5A-B681-2FDF756BD65F},,,,nee,nee,nee,24/7,nee
+4.27483974334774,52.0728471051505,"19",Stadsdeelkantoor Segbroek,Opengesteld,Fahrenheitstraat 190,,,,{D5B4B97D-908E-44CA-BBBA-059FA0BA83A1},,,,nee,nee,nee,maandag t/m vrijdag 8.30-16.30,nee
+4.26268744654236,52.1012875647953,"20",Biesieklette Strandweg Haven,Opengesteld,Strandweg 10,,,,{23EA8435-917C-43AF-8BCE-AF198820A541},,,,nee,ja,nee,maandag t/m zondag 9.00- 23.00,ja
+4.28796008013666,52.1139030333532,"21",Plaszuil Scheveningen,Opengesteld,Zwolsestraat,,,,{A718E403-5A07-4E3C-B808-E693FB6EA561},,,,nee,nee,ja,"vrijdag, zaterdag, zondag",nee
+4.22697054110022,52.0388090676242,"22",Toiletgebouw madestein,Opengesteld,Madepolderweg,,,,{DFF89D9C-2B21-4A2E-B53E-C23C059F9BC9},,,,nee,nee,nee,In de zomer,nee
+4.32407343641328,52.067224182496,"23",Haagse Hogeschool,Opengesteld,,,,,{C0460A34-C3BE-44EC-823B-0871A862FD95},,,,nee,nee,nee,,nee
+4.31737297420758,52.0653256287314,"24",Toilet megastores,Openbaar,Megastores,,,,{D91A5443-0CE9-4175-8D5D-8B5C3102D4B5},,,,nee,nee,nee,maandag t/m zondag 10.00-18.00,nee
+4.2992514869729,52.0648611849517,"25",Toilet Haagse Markt,Opengesteld,Herman Costerstraat,,,,{A8EE806D-F9CD-47BC-9768-7F40BE4C754A},,,,nee,nee,nee,Markttijden,nee
+4.30797036121132,52.0775012297328,"26",Plaszuil mannen,Openbaar,Kerkplein,,,,{918DCD3F-05BC-4DF6-A11B-A0CCFA9F4942},,,,nee,nee,ja,"Vrijdag, zaterdag, zondagavond",nee
+4.30757095630751,52.07785982141,"27",Plaszuil mannen,Openbaar,Kerkplein,,,,{C3BAB973-FADC-4EB2-BDFE-A9478806B9A0},,,,nee,nee,ja,"vrijdag-, zaterdag-, zondagavond",nee
+4.31334745092672,52.0766062634611,"28",Toilet Hema Den Haag,Opengesteld,Grote Marktstraat,,,,{DA934E54-9D9D-4F91-9FDE-B463CB45D218},,,,nee,nee,nee,Winkelopeningstijden,nee
+4.28146581326578,52.1164791622337,"29",Toilet de Pier,Openbaar,Pier,,,,{D40CE4B3-14C2-4825-9E00-5AD039B6B7B4},,,,nee,nee,nee,maandag t/m zondag 10.00- 20.00,ja
+4.22169775915351,52.0709188020179,"30",Strandtent 14,Opengesteld,Strandtent 14,,,,{A5BBD934-A803-4AB8-9727-F73E7EC079AB},,,,nee,ja,nee,Maart t/m september,nee
+4.27992456028357,52.1174239800281,"31",Vendor Public Washrooms,Openbaar,,,,,{14A2C181-BF72-45AB-9833-68681398F738},,,,nee,nee,nee,maandag t/m zondag 10.00- 22.00,ja
+4.28316800097221,52.1132325151323,"32",Toilet KFC,,Gevers Deynooxtplein 80,,,,{093F0EED-71B7-44B4-AC3E-F02EC839FE59},,,,nee,nee,nee,maandag t/m zondag 11.00- 23.00,nee
+4.27841208715785,52.1109199794511,"33",Museum beelden aan zee,Opengesteld,,,,,{93712E36-BB79-4716-8348-D55A45B478B5},,,,nee,ja,nee,dinsdag t/m zondag 10.00- 17.00,nee
+4.28419380044822,52.1121177600915,"34",MacDonalds toilet,Opengesteld,,,,,{EB28CFF0-FF60-4355-80F6-DD6D181C642C},,,,nee,ja,nee,maandag t/m zondag 09.00- 00.00,ja
+4.27884588164889,52.1026488343683,"35",Bibliotheek Scheveningen,Opengesteld,Scheveningseweg 333,,,,{42BEB8D0-5AAC-4DE4-BEE3-EA5F6F0E51B6},,,,nee,nee,nee,maandag t/m zaterdag 11.00-17.00,nee
+4.27546430396964,52.1014275416326,"36",Tankstation de Haan,Opengesteld,Duinstraat 16,,,,{90284931-5C50-4BBD-9975-F2EE55D6959D},,,,nee,nee,nee,maandag t/m zondag 08.00- 23.00,nee
+4.32861014172331,52.0669330587203,"37",Total Tankstation,Opengesteld,Laakweg 138,,,,{47F28930-70BA-4FE1-9D53-E7834DB737D7},,,,nee,nee,nee,maandag t/m zondag 07.00- 23.00,nee
+4.33632873041419,52.0690655262398,"38",MacDonalds Binckhorst,Opengesteld,Bickhorstlaan,,,,{3C9971C5-1F94-4A6B-A069-77B9FAEF95BF},,,,nee,nee,nee,maandag t/m zondag 08.00- 02.00,nee
+4.3189206395725,52.0667418408163,"39",MacDonalds Waldorpstraat,Opengesteld,Waldorpstraat,,,,{310CB18C-34A4-49D2-841B-0FE924F47F6A},,,,nee,nee,nee,maandag t/m zondag 09.00-22.00,nee
+4.33160555989089,52.0596155634786,"40",Bibliotheek Laakkwartier,Opengesteld,Linneusstraat,,,,{2C8CFA49-5D3E-4270-84D2-F047CBCC87AD},,,,nee,nee,nee,maandag t/m zaterdag 13.30 -17.30,nee
+4.31686358830208,52.0530167378427,"41",Centrum de Wissel Laak,Opengesteld,Van Meursstraat,,,,{7183E87F-A371-4F97-AED1-CE187C1E5044},,,,nee,nee,nee,maandag t/m vrijdag 09.00-16.00,nee
+4.30381435249961,52.0757353168933,"42",Gemeentelijke kredietbank,Opengesteld,,,,,{ECE671D3-3DD5-4713-9975-97640D86BA45},,,,nee,nee,nee,maandag t/m vrijdag 8.30- 12.00,nee
+4.30164241687323,52.0752167752439,"43",GGD Haaglanden,Opengesteld,Westeinde 128,,,,{7C3A0197-8433-4B8C-8FDF-5EE58B29CD17},,,,nee,ja,nee,maandag t/m vrijdag 8.30- 17.00,ja
+4.30007533989496,52.0738804832394,"44",HMC Westeinde,Opengesteld,,,,,{4BAA3E00-D6C1-4064-9FD5-C4860E46AFE8},,,,nee,ja,nee,,ja
+4.32456547653891,52.1047065324062,"45",De Bakery,Opengesteld,Willem Royaardsplein 24,,,,{B3ABD163-72B6-4A1D-A510-98E7E5C8D6C7},,,,nee,nee,nee,maandag t/m zondag 10.00-17.00,nee
+4.33370856015975,52.1011386824666,"46",IJgenweis,Opengesteld,Clingendael,,,,{A5242C0F-491A-4597-8764-2A5854869AFE},,,,nee,nee,nee,Zomer maandag t/m zondag 10.00-16.00,nee
+4.32124051402634,52.0934620305648,"47",Toilet Shell,Opengesteld,Wassenaarsweg,,,,{51CF3BBA-FCBB-4E5C-BA1A-6C45E98C8AE7},,,,nee,nee,nee,maandag t/m zondag 07.00-23.00,nee
+4.31613661743715,52.0866407088987,"48",Provincie Zuid-Holland,Opengesteld,,,,,{EDE041E9-EB64-4919-9672-FFFF0A1DDCBF},,,,nee,ja,nee,maandag t/m vrijdag 07.00-20.00,nee
+4.3186719720514,52.0839180901041,"49",Paviljoen Malieveld,Opengesteld,Koekamplaan 6,,,,{4041F2CD-1616-4A19-81D7-95C3F885FC4F},,,,nee,ja,nee,maandag t/m zondag 09.00-20.00,nee
+4.31533248367123,52.0828285231742,"50",Interparking Museumkwartier,Opengesteld,Lange Voorhout 98,,,,{6AECE15D-9E21-4F3C-BFFA-07AF92B7B581},,,,nee,ja,nee,maandag t/m zondag 06.00-18.00,nee
+4.32088136270749,52.0789930915294,"51",MacDonalds Turfmarkt,Opengesteld,Turfmarkt,,,,{87F61AC9-99AD-4B84-B3E4-FD18A9818C49},,,,nee,nee,nee,maandag t/m zondag 09.00-21.00,nee
+4.31421343514038,52.0774565728182,"52",MacDonalds Grote Marktstraat,Opengesteld,Grote Marktstraat,,,,{76212316-746D-4AFA-ABB8-B0F4657C32C7},,,,nee,nee,nee,maandag t/m zondag 08.00-02.00,nee
+4.31139121114485,52.0787922942597,"53",MacDonalds Buitenhof,Opengesteld,Buitenhof,,,,{941834EC-4FF2-4DA5-934E-BF1C4D02985A},,,,nee,nee,nee,maandag t/m zondag 09.00- 00.00,nee
+4.3095124479403,52.0763324662708,"54",MacDonalds Vlamingstraat,Opengesteld,Vlamingstraat,,,,{9AF09905-ADD3-4F5A-BE9D-B82C4CB1EA7A},,,,nee,nee,nee,maandag t/m zondag 10.00-21.00,nee
+4.24217254574977,52.0430532878784,"55",MacDonalds Escamplaan,Opengesteld,Escamplaan,,,,{B96BB4C2-B490-4DA1-8A9B-6AAAB83DD169},,,,nee,nee,nee,maandag t/m zondag 07.00-03.00,nee
+4.31422513630813,52.078314331209,"56",KFC toilet,Opengesteld,Spui 2,,,,{32D4EA26-CDC3-4367-81EF-F0E17A9ACF76},,,,nee,nee,nee,maandag t/m zondag 10.00-01.00,nee
+4.35770956505206,52.0919928185845,"57",Fl'orange,Opengesteld,Het Kleine Loo,,,,{9E4E8526-241E-4BED-BB4B-80B9B7B9CC80},,,,nee,nee,nee,Maandag t/m zaterdag 09.00-17.00,nee
+4.34013432754021,52.0874543690052,"58",Bibliotheek Haagse Hout,Opengesteld,Theresiastraat,,,,{128E0C41-E0A0-489B-AC02-34075CC82F1A},,,,nee,nee,nee,maandag t/m zaterdag 11.0-17.00,nee
+4.25797880867516,52.0444736085306,"59",Bibliotheek Bouwlust,Opengesteld,,,,,{64478060-517D-4DE0-BDB1-08BFA3C79023},,,,nee,nee,nee,maandag t/m zaterdag 11.00-17.00,nee
+4.22144497959474,52.0687697048003,"60",2theloo Kijkduin,Openbaar,Winkelcentrum Deltaplein,,,,{978D2A3D-43AC-48D3-B62E-424590E9BFBE},,,,nee,ja,nee,24/7,nee
+4.23525039903204,52.053828794316,"61",Servicepunt XL Tramstraat,Opengesteld,Tramstraat 15,,,,{234F5043-D467-49C5-B120-899DC0D82E90},,,,nee,ja,nee,maandag t/m vrijdag 9.00-12.30,nee
+4.30415944277627,52.0649935428489,"62",Servicepunt XL,Opengesteld,Stortenbekerstraat 201,,,,{0C7A89D2-0A9B-43EF-AA77-0844477B38FC},,,,nee,ja,nee,maandag t/m vrijdag 9.00 - 12.30,nee
+4.29324821820413,52.0646418156782,"63",Servicepunt XL,Opengesteld,Schalk Burgerstraat 219,,,,{1363800A-325D-41AE-87D2-B6799EA91BF9},,,,nee,ja,nee,dinsdag t/m vrijdag 9.00- 12.30,nee
+4.23532813982155,52.0534557556254,"64",Bibliotheek Loosduinen,Opengesteld,Bibliotheek Loosduinen,,,,{06619D51-C646-4167-9525-881DB51E7132},,,,nee,ja,nee,maandag t/m zaterdag 10.00- 18.00,nee
+4.31410624520043,52.0689519491942,"65",Bibliotheek Schilderswijk,Opengesteld,Koningstraat 439,,,,{B1CAFF7B-5E8D-43B9-9054-533C1CE9481D},,,,nee,ja,nee,maandag t/m zaterdag 9.30-17.00,nee
+4.3707017100246,52.041594441173,"66",Bibliotheek Ypenburg,Opengesteld,Schrabber 8,,,,{33A9C07D-7A62-4C1E-914E-164BF5EBB844},,,,nee,ja,nee,maandag t/m zaterdag 11.00- 18.00,nee
+4.31333704850324,52.0681417910592,"67",Buurthuis de Mussen,Opengesteld,Hoefkade,,,,{D3A9990B-B654-4BBC-920A-E47310C3F910},,,,nee,ja,nee,,nee
+4.29467256935167,52.0493955833975,"68",Servicepunt XL Moerwijk,Opengesteld,Aagje Dekenlaan 51,,,,{60CEF5ED-8D79-449D-B054-8BA0DA74CE47},,,,nee,ja,nee,maandag t/m vrijdag 9.00-12.30,nee
+4.36786821292293,52.0404697397505,"69",Servicepunt XL,Opengesteld,Plesmanlaan 217,,,,{2CA741A3-6608-4F59-98F5-7D5A70B019B3},,,,nee,ja,nee,,nee
+4.26927132723518,52.0723753722498,"70",Servicepunt XL Lindenkwadrant,Opengesteld,,,,,{E0EC6733-9739-43E8-BFD2-8D99C7ED62BA},,,,nee,ja,nee,maandag t/m vrijdag 9.00-12.30,nee
+4.28322725947795,52.0772148091578,"71",Servicepunt XL De Regenvalk,Opengesteld,Regentesseplein 148,,,,{435E3E0E-2AB2-49EF-9388-1C4AAE69F413},,,,nee,nee,nee,maandag t/m vrijdag 9.00-12.30,nee
+4.33338518274441,52.0658630887989,"72",Servicepunt XL Cromvlietplein,Opengesteld,Cromvlietplein,,,,{D43EB2B1-1E2E-4C07-9A21-0F174318C5F0},,,,nee,nee,nee,maandag t/m donderda,nee
