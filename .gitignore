@@ -1,0 +1,10 @@
+# Virtual environment
+venv/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Streamlit specific (local secrets, history)
+.streamlit/secrets.toml
+.streamlit/app_history.json
