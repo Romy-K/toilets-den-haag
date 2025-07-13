@@ -117,8 +117,8 @@ elif st.session_state.current_selected_tab_name == "Facts":
 
     col1, col2 = st.columns([56,22])
     # Styles
-    label_style = "font-size: 36px; line-height: 2;"
-    value_style = "font-size: 36px; line-height: 2; font-weight: 600;"
+    label_style = "font-size: 35px; line-height: 2;"
+    value_style = "font-size: 35px; line-height: 2; font-weight: 600;"
 
     # Column 1 — Labels
     col1.markdown(f"<div style='{label_style}'>Annual senior outings in NL</div>", unsafe_allow_html=True)
@@ -357,7 +357,9 @@ elif st.session_state.current_selected_tab_name == "Recommendations":
             <li style="font-size: 38px;">Money spent in city ≠ money for city</li>
             <li style="font-size: 38px;">Are toilets free?</li>
             <li style="font-size: 38px;">Toilet placement</li>
-            <li style="font-size: 38px;">Not just seniors!</li>
+            <li style="font-size: 38px;">Not just seniors</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
+    st.markdown("<div style='margin-top: 30px;'></div>", unsafe_allow_html=True)
+    st.image("https://images.theconversation.com/files/311270/original/file-20200122-117933-ffzg6q.jpg?ixlib=rb-4.1.0&amp;rect=0%2C0%2C6000%2C3000&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop")
