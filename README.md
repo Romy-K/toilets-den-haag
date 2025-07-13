@@ -2,9 +2,11 @@
 
 A Jumping-Off Point for Public Toilet Policy in Den Haag
 
-It's a commonly heard complaint: there is a lack of public toilets in Den Haag. 
-The aim of this project is to show that while investing in public toilets is obviously worth it in terms of citizens' health and wellbeing, it might be economically viable, too. 
-It focuses particularly on seniors, a group that states that a lack of toilets is a reason for them to skip on outings they otherwise would have gone on.
+It's a commonly heard complaint: there is a lack of public toilets in Den Haag.
+
+The aim of this project is to show that while municipal investing in public toilets is obviously 'worth it' in terms of citizens' health and wellbeing, it might be economically viable, too. 
+
+It focuses particularly on seniors, a group that states that a lack of toilets is a reason for them to skip on outings they otherwise would have gone on. 
 
 ## Data used
 - Public Toilets Den Haag 
@@ -22,13 +24,13 @@ It focuses particularly on seniors, a group that states that a lack of toilets i
 Use data about spending per outing, outings missed, senior population, current toilet density and ideal toilet density to model extra senior spending as a result of adding toilets to the city. 
 
 ## Product
-A Streamlit app with the following features: 
+A Streamlit app (as of 13 July 2025, yet to be deployed) with the following features: 
 
 ### 1-Year Simulation: 
-- use a slider to model the economic consequences of adding a certain number of toilets to the city in 1 year
+- use a slider to model the economic consequences of adding a certain number of toilets to the city in 1 year (baseline 2024)
 - see current toilets on the map of Den Haag and generate hypothetical toilets to be added
 - see illustration of sigmoid function used to model behavorial outcomes
-- 
+  
 ### 10-Year simulation:
 - use a slider to model the economic consequences of adding a certain number of toilets to the city each year for 10 years (2025 - 2034)
 - view and download detailed table with year-by-year outcomes for your chosen scenario
