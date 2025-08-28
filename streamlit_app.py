@@ -44,12 +44,13 @@ for key in ["active_tab", "temp_tab_selection_bug_fix", "toilet_count_sidebar_va
 # ----------------------------
 @st.cache_data
 def load_all_data():
-    username = st.secrets["username"]
+    user = st.secrets["user"]
     password = st.secrets["password"]
     host = st.secrets["host"]
     database = st.secrets["database"]
 
-    connection_string = f"mysql+pymysql://{username}:{password}@{host}/{database}"
+    connection_string = (f"mysql+pymysql://{user}:{password}@{host}/{database}"
+    "?ssl_verify_cert=true&ssl_verify_identity=true")
     engine = create_engine(connection_string)
 
     scenarios = pd.read_sql("SELECT * FROM city_scenarios_all", con=engine)
