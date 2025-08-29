@@ -227,7 +227,9 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     layers=[layer],
     initial_view_state=view_state,
     map_style="mapbox://styles/mapbox/streets-v11",
+    mapbox_key=st.secrets["mapbox_token"]
     )
+    
     st.pydeck_chart(deck)
 
     # Add hidden sigmoid illustration
