@@ -271,10 +271,10 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     pickable=True,
     )
 
-    # Base map layer (OpenStreetMap tiles)
+    # Base map layer (Carto Voyager for streets)
     tile_layer = pdk.Layer(
     "TileLayer",
-    data="https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    data="https://basemaps.cartocdn.com/voyager/{z}/{x}/{y}{r}.png",
     pickable=False,
     min_zoom=0,
     max_zoom=19,
@@ -284,7 +284,7 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     view_state = pdk.ViewState(
     latitude=52.08,
     longitude=4.32,
-    zoom=11.75,
+    zoom=12,
     pitch=0,
     )
 
