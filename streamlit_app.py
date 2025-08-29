@@ -223,6 +223,10 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     zoom=11.75,
     pitch=0,
     )
+    
+    #DEBUG 
+    st.write("Mapbox token being used:", st.secrets["mapbox_token"][:6] + "...")
+
     deck = pdk.Deck(
     layers=[layer],
     initial_view_state=view_state,
