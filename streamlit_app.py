@@ -194,6 +194,54 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
         unsafe_allow_html=True
     )
 
+#     # Get toilet map
+#     def generate_fake_toilets(n, seed=42):
+#         np.random.seed(seed)
+#         lat = np.random.uniform(52.05, 52.11, n)
+#         lon = np.random.uniform(4.25, 4.36, n)
+#         return pd.DataFrame({"lat": lat, "lon": lon, "type": "simulated"})
+
+#     extra_toilets = toilet_count - current_toilets.shape[0]
+#     print(f"Extra toilets to generate: {extra_toilets}")
+#     simulated = generate_fake_toilets(extra_toilets) if extra_toilets > 0 else pd.DataFrame(columns=["lat", "lon", "type"])
+#     current_toilets["type"] = "existing"
+#     map_df = pd.concat([current_toilets[["lat", "lon", "type"]], simulated], ignore_index=True)
+#     color_map = {"existing": [255, 0, 0], "simulated": [65, 62, 222]}
+#     map_df["color"] = map_df["type"].map(color_map)
+
+#     layer = pdk.Layer(
+#     "ScatterplotLayer",
+#     data=map_df,
+#     get_position='[lon, lat]',
+#     get_radius=45,
+#     get_fill_color='color',
+#     pickable=True,
+#     )
+#     view_state = pdk.ViewState(
+#     latitude=52.08,
+#     longitude=4.32,
+#     zoom=11.75,
+#     pitch=0,
+#     )
+    
+#    # pdk.settings.mapbox_api_key = st.secrets["mapbox_token"]
+
+#     # deck = pdk.Deck(
+#     # layers=[layer],
+#     # initial_view_state=view_state,
+#     # map_style="mapbox://styles/mapbox/streets-v11"
+#     # )
+
+#     # Use Carto light tiles instead of Mapbox
+#     deck = pdk.Deck(
+#     layers=[layer],
+#     initial_view_state=view_state,
+#     map_style="https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+# )
+
+    
+#     st.pydeck_chart(deck)
+
     # Get toilet map
     def generate_fake_toilets(n, seed=42):
         np.random.seed(seed)
@@ -201,15 +249,20 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
         lon = np.random.uniform(4.25, 4.36, n)
         return pd.DataFrame({"lat": lat, "lon": lon, "type": "simulated"})
 
+    # Determine how many simulated toilets to add
     extra_toilets = toilet_count - current_toilets.shape[0]
     print(f"Extra toilets to generate: {extra_toilets}")
+
     simulated = generate_fake_toilets(extra_toilets) if extra_toilets > 0 else pd.DataFrame(columns=["lat", "lon", "type"])
     current_toilets["type"] = "existing"
     map_df = pd.concat([current_toilets[["lat", "lon", "type"]], simulated], ignore_index=True)
+
+    # Map colors
     color_map = {"existing": [255, 0, 0], "simulated": [65, 62, 222]}
     map_df["color"] = map_df["type"].map(color_map)
 
-    layer = pdk.Layer(
+    # Scatterplot layer for toilets
+    scatter_layer = pdk.Layer(
     "ScatterplotLayer",
     data=map_df,
     get_position='[lon, lat]',
@@ -217,29 +270,31 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     get_fill_color='color',
     pickable=True,
     )
+
+    # Base map layer (OpenStreetMap tiles)
+    tile_layer = pdk.Layer(
+    "TileLayer",
+    data="https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    pickable=False,
+    min_zoom=0,
+    max_zoom=19,
+    )
+
+    # Initial view
     view_state = pdk.ViewState(
     latitude=52.08,
     longitude=4.32,
     zoom=11.75,
     pitch=0,
     )
-    
-   # pdk.settings.mapbox_api_key = st.secrets["mapbox_token"]
 
-    # deck = pdk.Deck(
-    # layers=[layer],
-    # initial_view_state=view_state,
-    # map_style="mapbox://styles/mapbox/streets-v11"
-    # )
-
-    # Use Carto light tiles instead of Mapbox
+    # Create deck with both layers
     deck = pdk.Deck(
-    layers=[layer],
-    initial_view_state=view_state,
-    map_style="https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-)
+    layers=[tile_layer, scatter_layer],
+    initial_view_state=view_state
+    )
 
-    
+    # Display in Streamlit
     st.pydeck_chart(deck)
 
     # Add hidden sigmoid illustration
