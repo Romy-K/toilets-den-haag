@@ -224,13 +224,21 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     pitch=0,
     )
     
-    pdk.settings.mapbox_api_key = st.secrets["mapbox_token"]
+   # pdk.settings.mapbox_api_key = st.secrets["mapbox_token"]
 
+    # deck = pdk.Deck(
+    # layers=[layer],
+    # initial_view_state=view_state,
+    # map_style="mapbox://styles/mapbox/streets-v11"
+    # )
+
+    # Use Carto light tiles instead of Mapbox
     deck = pdk.Deck(
     layers=[layer],
     initial_view_state=view_state,
-    map_style="mapbox://styles/mapbox/streets-v10"
-    )
+    map_style="https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+)
+
     
     st.pydeck_chart(deck)
 
