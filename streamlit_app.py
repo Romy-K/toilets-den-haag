@@ -273,7 +273,7 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
 
     tile_layer = pdk.Layer(
     "TileLayer",
-    data="https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    data="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
     pickable=False,
     min_zoom=0,
     max_zoom=19,
