@@ -271,10 +271,9 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     pickable=True,
     )
 
-    # Base map layer (Carto Voyager for streets)
-    tile_layer = pdk.Layer(
+   tile_layer = pdk.Layer(
     "TileLayer",
-    data="https://basemaps.cartocdn.com/voyager/{z}/{x}/{y}{r}.png",
+    data="https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     pickable=False,
     min_zoom=0,
     max_zoom=19,
