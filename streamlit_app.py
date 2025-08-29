@@ -290,7 +290,8 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     # Create deck with both layers
     deck = pdk.Deck(
     layers=[tile_layer, scatter_layer],
-    initial_view_state=view_state
+    initial_view_state=view_state,
+    map_style=pdk.map_styles.CARTO_LIGHT
     )
 
     # Display in Streamlit
