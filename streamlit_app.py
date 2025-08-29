@@ -271,7 +271,7 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     pickable=True,
     )
 
-   tile_layer = pdk.Layer(
+    tile_layer = pdk.Layer(
     "TileLayer",
     data="https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     pickable=False,
