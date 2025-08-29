@@ -224,14 +224,12 @@ elif st.session_state.current_selected_tab_name == "1-Year Simulation":
     pitch=0,
     )
     
-    #DEBUG 
-    st.write("Mapbox token being used:", st.secrets["mapbox_token"][:6] + "...")
+    pdk.settings.mapbox_api_key = st.secrets["mapbox_token"]
 
     deck = pdk.Deck(
     layers=[layer],
     initial_view_state=view_state,
-    map_style="mapbox://styles/mapbox/streets-v11",
-    mapbox_key=st.secrets["mapbox_token"]
+    map_style="mapbox://styles/mapbox/streets-v11"
     )
     
     st.pydeck_chart(deck)
